@@ -11,6 +11,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Cairo:wght@200;300;400;700&family=Crimson+Pro:wght@200&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Lora&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Cairo:wght@200;300;400;700&family=Crimson+Pro:wght@200&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Lora&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/all.min.css">
 <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
 </head>
@@ -47,34 +51,53 @@
     
     </div>
 </div>
-<section class="testimonial">
-  <div class="container">
-  <div class="info">
-    <h1>Stay productive, wherever you are</h1>
-    <p>
-      Never let location be an issue when accessing your files. Fylo has you 
-      covered for all of your file storage needs.
-    </p>
-    <p>
-      Securely share files and folders with friends, family and colleagues for 
-      live collaboration. No email attachments required!
-    </p>
-    <a href="#">See how Fylo works</a>
-    <div class="card">
-      <p>Fylo has improved our team productivity by an order of magnitude. Since 
-        making the switch our team has become a well-oiled collaboration machine.
-      </p>
-      <div class="profile">
-        <img src="./images/avatar-testimonial.jpg" alt="">
-        <div class="name">
-          <h3>Kyle Burton</h3>
-          <h5>Founder & CEO, Huddle</h5>
+<div class="testimonial">
+        
+    <div class="container" id="container-testimonial">
+      <div class="col">
+        <div class="info">
+          <h1>Stay productive, wherever you are</h1>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!
+          </p>
+          <div>
+          <a href="#">See how Fylo works</a>
+          <picture>
+                      <img src="./images/icon-arrow.svg" alt="">  
+          </picture>
+          </div>  
         </div>
-      </div>
-      </div>
-    </div>
-  </div>  
-</section>
+              <div class="card">
+                <picture><img class ="quote" src="./images/icon-quotes.svg" alt=""></picture>
+                
+                <p>Fylo has improved our team productivity by an order of magnitude. Since 
+                  making the switch our team has become a well-oiled collaboration machine.
+                </p>
+                <div class="profile">
+                  <picture>
+                    <img src="./images/avatar-testimonial.jpg" alt="">
+                  </picture>
+                  <div class="name">
+                    <h3>Kyle Burton</h3>
+                    <h5>Founder & CEO, Huddle</h5>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+              <picture>
+              <img src="./images/illustration-2.svg" alt="">
+              </picture>
+            
+              
+    </div>  
+  </div>
+
 <section class="access">
   <div class="container">
       <div class="info">
@@ -90,6 +113,7 @@
       </form>
   </div>
 </section>
+
 <footer>
   <div class="container">
       <div class="column">
@@ -109,28 +133,12 @@
         <h6>Privacy</h6>
       </div>
       <div class="column">
-        <img src="./images/" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
       </div>
   </div>
 </footer>
 
-
-  
-  
-  
-  
-
-  
-  
-  
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
